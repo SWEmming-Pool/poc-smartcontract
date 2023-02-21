@@ -67,7 +67,7 @@ module.exports = {
         development: {
             host: "127.0.0.1", // Localhost (default: none)
             port: 8545, // Standard Ethereum port (default: none)
-            network_id: "5777", // Any network (default: none)
+            network_id: "*", // Any network (default: none)
         },
         //
         // An additional network, but with some advanced options…
@@ -140,9 +140,12 @@ module.exports = {
     // }
 };
 
-//truffle console
+
 //truffle migarte
 //truffle test
+//truffle console
 //let instance = await ReviewSystem.deployed()
-//instance.addReview("0x28199480A48238c737D83Cde5388a31D575E3903",3,"Good")
-//instance.getReviews("0x28199480A48238c737D83Cde5388a31D575E3903")
+//instance.addReview("0x5aFc39766Bf78f51e27E797Bdbb9E4Cb47286625",3,"Good")
+//instance.getReviews("0x5aFc39766Bf78f51e27E797Bdbb9E4Cb47286625")
+//instance.getNumberOfReviews("0x5aFc39766Bf78f51e27E797Bdbb9E4Cb47286625")
+//instance.getReviewIndex("0x5aFc39766Bf78f51e27E797Bdbb9E4Cb47286625", 0)
