@@ -16,10 +16,10 @@ truffle console
 Nella console di `truffle`
 ```
 let instance = await ReviewSystem.deployed()
-instance.addReview("0x5aFc39766Bf78f51e27E797Bdbb9E4Cb47286625",3,"Good")
-instance.getReviews("0x5aFc39766Bf78f51e27E797Bdbb9E4Cb47286625")
-instance.getNumberOfReviews("0x5aFc39766Bf78f51e27E797Bdbb9E4Cb47286625")
-instance.getReviewIndex("0x5aFc39766Bf78f51e27E797Bdbb9E4Cb47286625", 0)
+instance.addReview("0x930aeC57f5723E471C4ec3585b81d5B38d91F613",3,"Good")
+instance.getReviews("0x930aeC57f5723E471C4ec3585b81d5B38d91F613")
+instance.getNumberOfReviews("0x930aeC57f5723E471C4ec3585b81d5B38d91F613")
+instance.getReviewIndex("0x930aeC57f5723E471C4ec3585b81d5B38d91F613", 0)
 ```
 ### Ganache
 Per avere stesso account address
