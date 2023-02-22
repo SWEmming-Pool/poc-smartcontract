@@ -143,12 +143,3 @@ module.exports = {
 };
 //ganache-cli --mnemonic "swemming pool"
 
-
-//truffle migarte
-//truffle test
-//truffle console
-//let instance = await ReviewSystem.deployed()
-//instance.addReview("0x5aFc39766Bf78f51e27E797Bdbb9E4Cb47286625",3,"Good")
-//instance.getReviews("0x5aFc39766Bf78f51e27E797Bdbb9E4Cb47286625")
-//instance.getNumberOfReviews("0x5aFc39766Bf78f51e27E797Bdbb9E4Cb47286625")
-//instance.getReviewIndex("0x5aFc39766Bf78f51e27E797Bdbb9E4Cb47286625", 0)
