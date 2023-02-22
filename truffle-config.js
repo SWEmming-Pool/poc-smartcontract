@@ -68,8 +68,8 @@ module.exports = {
             host: "127.0.0.1", // Localhost (default: none)
             port: 8545, // Standard Ethereum port (default: none)
             network_id: "*", // Any network (default: none)
-            //use ganache seed to make it works
-            from: "0xe35d534EBe71555191CB3ce09D7accEE8663444E"
+            //use ganache seed 
+            from: "0xe35d534EBe71555191CB3ce09D7accEE8663444E"//The default from address will be set to this address.
         },
         //
         // An additional network, but with some advanced options…
