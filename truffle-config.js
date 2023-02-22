@@ -68,6 +68,8 @@ module.exports = {
             host: "127.0.0.1", // Localhost (default: none)
             port: 8545, // Standard Ethereum port (default: none)
             network_id: "*", // Any network (default: none)
+            //use ganache seed to make it works
+            from: "0xe35d534EBe71555191CB3ce09D7accEE8663444E"
         },
         //
         // An additional network, but with some advanced options…
@@ -139,6 +141,7 @@ module.exports = {
     //   }
     // }
 };
+//ganache-cli --mnemonic "swemming pool"
 
 
 //truffle migarte
