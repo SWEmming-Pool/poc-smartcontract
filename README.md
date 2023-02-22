@@ -4,6 +4,8 @@ Questa repo contiene il contratto per il *PoC*. Si occupa del minimo indispensab
 
 ## Comandi
 
+### Truffle
+
 Dal terminale
 ```
 truffle test
@@ -19,7 +21,7 @@ instance.getReviews("0x5aFc39766Bf78f51e27E797Bdbb9E4Cb47286625")
 instance.getNumberOfReviews("0x5aFc39766Bf78f51e27E797Bdbb9E4Cb47286625")
 instance.getReviewIndex("0x5aFc39766Bf78f51e27E797Bdbb9E4Cb47286625", 0)
 ```
-## Ganache
+### Ganache
 Per avere stesso account address
 ```
 ganache-cli --mnemonic "swemming pool"
